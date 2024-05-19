@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(16, 11, 64, 0.942);
+
+}
+
+.card {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 10px;
+    
+
+
+}
+
+.outer_part {
+    height: 547px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -5px 5px 10px rgb(84, 211, 194);
+}
+
+.outer_part>img {
+
+    width: 381px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+
+.info {
+    width: 56px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid grey;
+    position: absolute;
+    left: 565px;
+    top: 353px;
+    margin-top: 12px;
+    padding-left: 7px;
+    padding-right: 9px;
+    border-radius: 26px;
+}
+
+.info_2>p {
+    width: 56px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    position: absolute;
+    left: 649px;
+    top: 353px;
+    margin-top: 12px;
+    padding-left: 1px;
+    padding-right: 0px;
+    border-radius: 26px;
+    color: #183e4b;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 520;
+    font-size: small;
+
+}
+
+
+.Nature {
+    background-color: white;
+    text-align: center;
+    font-weight: 520;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    color: #183e4b;
+}
+
+.heading>p {
+    position: absolute;
+    left: 542px;
+    top: 390px;
+    margin-left: 10px;
+    background-color: white;
+    font-family: "Playfair Display", serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* transition: text-shadow 0.3s ease; */
+}
+
+.text>p {
+    background-color: white;
+    position: absolute;
+    left: 553px;
+    top: 444px;
+    width: 326px;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.more>a {
+    width: 96px;
+    height: 20px;
+    background-color: rgba(135, 207, 235, 0.497);
+    border: 1px solid;
+    border-color: rgba(135, 207, 235, 0.497);
+    position: absolute;
+    left: 682px;
+    top: 561px;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 26px;
+    color: #183e4b;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: rgba(0, 0, 255, 0.61);
+    text-decoration: none;
+}
+
+.heading>p:hover {
+    text-shadow: 4px 4px 12px rgb(175, 199, 38);
+}
+
+.more>a:hover {
+
+    text-decoration: underline;
+}
+
+/* .more>a:visited{
+    color: darkcyan;
+} */
